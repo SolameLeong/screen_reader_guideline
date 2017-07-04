@@ -33,6 +33,10 @@
 }
 
 .content {
-    width: 70%;
+    width: 75%;
     margin: 60px auto 0 auto
+}
+
+p {
+    font-size: 40px;
 }
