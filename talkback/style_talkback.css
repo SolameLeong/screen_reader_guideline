@@ -1,0 +1,38 @@
+#header {
+    height: 60px;
+}
+.logo {
+    height: 50px;
+    weight: 50px;
+    float: right;
+}
+#title {
+    color: #0093DD;
+    display: inline;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+#guideline {
+    background-color: #6699cc;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.top-bar {
+    background-color: #6699cc;
+    color: white;
+    display: block;
+    float: left;
+    width: auto;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    margin: 60px auto 0 auto
+}

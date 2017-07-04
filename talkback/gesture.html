@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_talkback.css">
+    <title>视障人士talkback使用指南</title>
+    <script src="vue.js"></script>
+    <script src="vue-resource.js"></script>
+    <script src="gesture.js"></script>
+</head>
+<body>
+<div id="header">
+    <img class="logo" src="data/Rongai_Logo.png" alt="融爱图标">
+    <div id="title">talkback操作指南</div>
+</div>
+<div id="guideline">
+    <a class="top-bar" id="talkback" href="index.html">首页</a>
+    <a class="top-bar" id="gesture" href="gesture.html">操作手势</a>
+    <a class="top-bar" id="setting" href="setting.html">talkback设置</a>
+</div>
+
+<div class="content" id="ges" v-html="text">
+</div>
+</body>
+</html>
